@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "Lesson2"
+include ':app'
+include ':intentfilter'
+include ':intentfilter2'
+include ':app:intentfilter'
+include ':intentfilters'
+include ':notificationapp'
+include ':dialog'
+include ':toastapp'
